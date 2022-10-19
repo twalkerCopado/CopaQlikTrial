@@ -46,4 +46,11 @@
             <translation><!-- Exclusion --></translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Option Constraint Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

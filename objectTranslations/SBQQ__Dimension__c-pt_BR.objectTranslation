@@ -175,6 +175,17 @@
         <name>SBQQ__UnitPrice__c</name>
     </fields>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Price Dimension Layout</layout>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Precificação</label>
+            <section>Pricing</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome da dimensão</nameFieldLabel>
     <webLinks>
         <label><!-- Translate --></label>

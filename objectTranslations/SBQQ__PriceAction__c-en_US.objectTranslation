@@ -95,6 +95,17 @@
         <label><!-- Value --></label>
         <name>SBQQ__Value__c</name>
     </fields>
+    <layouts>
+        <layout>Price Action Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Price Action Sources --></label>
+            <section>Price Action Sources</section>
+        </sections>
+    </layouts>
     <validationRules>
         <errorMessage><!-- Price Action Target Object does not match Evaluation Scope --></errorMessage>
         <name>SBQQ__Target_Object_Validation</name>

@@ -50,6 +50,13 @@
         <name>SBQQ__TemplateSection__c</name>
         <relationshipLabel><!-- Additional Documents --></relationshipLabel>
     </fields>
+    <layouts>
+        <layout>Related Content Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <webLinks>
         <label><!-- NewQuoteRelatedContent --></label>
         <name>SBQQ__NewQuoteRelatedContent</name>

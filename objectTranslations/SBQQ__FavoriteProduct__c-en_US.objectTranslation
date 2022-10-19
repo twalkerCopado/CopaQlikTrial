@@ -38,4 +38,11 @@
         <name>SBQQ__RequiredBy__c</name>
         <relationshipLabel><!-- Favorite Product --></relationshipLabel>
     </fields>
+    <layouts>
+        <layout>Favorite Product Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>
