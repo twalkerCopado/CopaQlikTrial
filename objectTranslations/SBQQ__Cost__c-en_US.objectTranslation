@@ -16,4 +16,11 @@
         <label><!-- Unit Cost --></label>
         <name>SBQQ__UnitCost__c</name>
     </fields>
+    <layouts>
+        <layout>Cost Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

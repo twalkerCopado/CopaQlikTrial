@@ -104,6 +104,21 @@
             <translation>Sim</translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>CPQ Account Layout</layout>
+        <sections>
+            <label>Informações adicionais</label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Informações de renovação/encerramento combinado</label>
+            <section>Renewal/Co-Term Information</section>
+        </sections>
+    </layouts>
     <webLinks>
         <label><!-- AltavistaNews --></label>
         <name>AltavistaNews</name>

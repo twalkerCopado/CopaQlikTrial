@@ -134,6 +134,17 @@
         <label><!-- Filter Value --></label>
         <name>SBQQ__Value__c</name>
     </fields>
+    <layouts>
+        <layout>Price Condition Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Filter Information --></label>
+            <section>Filter Information</section>
+        </sections>
+    </layouts>
     <validationRules>
         <errorMessage><!-- If Filter Type is Formula, then Filter Formula cannot be empty. --></errorMessage>
         <name>SBQQ__Filter_formula_field_null</name>
