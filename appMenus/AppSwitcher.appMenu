@@ -53,10 +53,6 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>standard__LightningInstrumentation</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
         <name>standard__SalesforceCMS</name>
         <type>CustomApplication</type>
     </appMenuItems>
@@ -143,13 +139,5 @@
     <appMenuItems>
         <name>DEVHUB_mmuoibttovzmdv23dmv6</name>
         <type>ConnectedApp</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>Copado_Trial</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>SBQQ__QuoteQuickly</name>
-        <type>CustomApplication</type>
     </appMenuItems>
 </AppMenu>

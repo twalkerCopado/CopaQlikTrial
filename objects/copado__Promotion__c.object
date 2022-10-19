@@ -622,14 +622,6 @@
         <label>Pipeline Manager</label>
     </fieldSets>
     <fields>
-        <fullName>Conflict__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Merge Conflict</label>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
         <fullName>copado__Back_Promotion__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>

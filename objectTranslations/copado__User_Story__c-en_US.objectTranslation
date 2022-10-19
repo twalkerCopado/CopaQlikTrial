@@ -65,34 +65,6 @@
         <name>copado__Work_Manager_Relations</name>
     </fieldSets>
     <fields>
-        <label><!-- Datetime Completed --></label>
-        <name>Datetime_Completed__c</name>
-    </fields>
-    <fields>
-        <label><!-- Datetime Deployed To Production --></label>
-        <name>Datetime_Deployed_To_Production__c</name>
-    </fields>
-    <fields>
-        <label><!-- Lead Time (Hours) --></label>
-        <name>Lead_Time_Hours__c</name>
-    </fields>
-    <fields>
-        <label><!-- Lead Time (Minutes) --></label>
-        <name>Lead_Time_Minutes__c</name>
-    </fields>
-    <fields>
-        <label><!-- Number Of Components --></label>
-        <name>Number_Of_Components__c</name>
-    </fields>
-    <fields>
-        <label><!-- SCA Score --></label>
-        <name>SCA_Score__c</name>
-    </fields>
-    <fields>
-        <label><!-- SCA Violations --></label>
-        <name>SCA_Violations__c</name>
-    </fields>
-    <fields>
         <label><!-- Acceptance Criteria Status --></label>
         <name>copado__Acceptance_Criteria_Status__c</name>
         <picklistValues>
@@ -867,6 +839,104 @@
         <label><!-- So that... --></label>
         <name>copado__userStory_reason__c</name>
     </fields>
+    <layouts>
+        <layout>User Story Layout</layout>
+        <sections>
+            <label><!-- Agile content --></label>
+            <section>Agile content</section>
+        </sections>
+        <sections>
+            <label><!-- Apex Code Coverage --></label>
+            <section>Apex Code Coverage</section>
+        </sections>
+        <sections>
+            <label><!-- Approvals --></label>
+            <section>Approvals</section>
+        </sections>
+        <sections>
+            <label><!-- Compliance --></label>
+            <section>Compliance</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Deployment Flow --></label>
+            <section>Deployment Flow</section>
+        </sections>
+        <sections>
+            <label><!-- Deployment Options --></label>
+            <section>Deployment Options</section>
+        </sections>
+        <sections>
+            <label><!-- Estimation --></label>
+            <section>Estimation</section>
+        </sections>
+        <sections>
+            <label><!-- Project Management --></label>
+            <section>Project Management</section>
+        </sections>
+        <sections>
+            <label><!-- Resourcing --></label>
+            <section>Resourcing</section>
+        </sections>
+        <sections>
+            <label><!-- Specifications --></label>
+            <section>Specifications</section>
+        </sections>
+        <sections>
+            <label><!-- User Story selections --></label>
+            <section>User Story selections</section>
+        </sections>
+        <sections>
+            <label><!-- Validation Deployment Results --></label>
+            <section>Validation Deployment Results</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Utility</layout>
+        <sections>
+            <label><!-- Apex Code Coverage --></label>
+            <section>Apex Code Coverage</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Deployment Flow --></label>
+            <section>Deployment Flow</section>
+        </sections>
+        <sections>
+            <label><!-- Deployment Options --></label>
+            <section>Deployment Options</section>
+        </sections>
+        <sections>
+            <label><!-- Project Management --></label>
+            <section>Project Management</section>
+        </sections>
+        <sections>
+            <label><!-- Resourcing --></label>
+            <section>Resourcing</section>
+        </sections>
+        <sections>
+            <label><!-- User Story selections --></label>
+            <section>User Story selections</section>
+        </sections>
+        <sections>
+            <label><!-- Validation Deployment Results --></label>
+            <section>Validation Deployment Results</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Submit --></label>
+        <name>copado__MC_Submit</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Validate Changes --></label>
+        <name>copado__ValidateChanges</name>
+    </quickActions>
     <recordTypes>
         <label><!-- Bug --></label>
         <name>copado__Bug</name>
@@ -883,22 +953,6 @@
         <label><!-- Utility --></label>
         <name>copado__Utility</name>
     </recordTypes>
-    <validationRules>
-        <errorMessage><!-- This User Story contains critical compliance violations. Please view the related Scan Result for more details. --></errorMessage>
-        <name>Compliance_Scan_Passed</name>
-    </validationRules>
-    <validationRules>
-        <errorMessage><!-- Please run a compliance scan. --></errorMessage>
-        <name>Compliance_Scan_Run</name>
-    </validationRules>
-    <validationRules>
-        <errorMessage><!-- A pull request must first be approved in order to promote this User Story. --></errorMessage>
-        <name>Pull_Request_Approved</name>
-    </validationRules>
-    <validationRules>
-        <errorMessage><!-- Static Code Analysis has either not been run or the SCA Score is too high. --></errorMessage>
-        <name>Static_Code_Analysis_Results</name>
-    </validationRules>
     <validationRules>
         <errorMessage><!-- A cancellation reason must be given. --></errorMessage>
         <name>copado__Cancellation_reason_required</name>

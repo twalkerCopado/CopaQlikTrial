@@ -51,6 +51,21 @@
         <label><!-- Version --></label>
         <name>copado__Version__c</name>
     </fields>
+    <layouts>
+        <layout>Release Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label>アドバンス</label>
+            <section>Advanced</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel><!-- Release Name --></nameFieldLabel>
     <validationRules>
         <errorMessage><!-- please dont include spaces in version field --></errorMessage>

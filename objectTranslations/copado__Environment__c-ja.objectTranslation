@@ -176,6 +176,25 @@
             <translation>ユーザーが組織クレデンシャルを持っていない場合のみ</translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Environment Layout</layout>
+        <sections>
+            <label>コンプライアンス</label>
+            <section>Compliance</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>ページメッセージ</label>
+            <section>Page Messages</section>
+        </sections>
+        <sections>
+            <label><!-- Rollback --></label>
+            <section>Rollback</section>
+        </sections>
+    </layouts>
     <nameFieldLabel><!-- Environment Name --></nameFieldLabel>
     <webLinks>
         <label><!-- Find_Replace_Rule_Editor --></label>
