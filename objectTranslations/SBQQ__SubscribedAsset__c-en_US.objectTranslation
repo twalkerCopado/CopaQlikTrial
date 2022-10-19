@@ -26,4 +26,11 @@
         <label><!-- Asset Usage End Date --></label>
         <name>SBQQ__UsageEndDate__c</name>
     </fields>
+    <layouts>
+        <layout>Subscribed Asset Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>
