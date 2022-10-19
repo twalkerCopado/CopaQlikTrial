@@ -88,6 +88,13 @@
             <translation><!-- Dynamic --></translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Product Feature Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <validationRules>
         <errorMessage><!-- Min Options cannot be negative. --></errorMessage>
         <name>SBQQ__MinOptionValidation</name>

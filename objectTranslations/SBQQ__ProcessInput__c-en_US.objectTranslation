@@ -140,6 +140,17 @@
         <name>SBQQ__QuoteProcess__c</name>
         <relationshipLabel><!-- Process Inputs --></relationshipLabel>
     </fields>
+    <layouts>
+        <layout>Process Input Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Product Filter --></label>
+            <section>Product Filter</section>
+        </sections>
+    </layouts>
     <validationRules>
         <errorMessage><!-- Both Product Field and Operator must be set if either are set. --></errorMessage>
         <name>SBQQ__ProductFieldAndOperatorSet</name>
