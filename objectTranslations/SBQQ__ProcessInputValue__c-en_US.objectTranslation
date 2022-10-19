@@ -23,4 +23,11 @@
         <label><!-- Value --></label>
         <name>SBQQ__Value__c</name>
     </fields>
+    <layouts>
+        <layout>Process Input Values Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

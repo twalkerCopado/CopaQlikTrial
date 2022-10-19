@@ -145,6 +145,17 @@
             <translation><!-- Quote --></translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Product Action Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Filter Information --></label>
+            <section>Filter Information</section>
+        </sections>
+    </layouts>
     <validationRules>
         <errorMessage><!-- Value Attribute required since the Value Field is a global Configuration Attribute field. --></errorMessage>
         <name>SBQQ__Value_attr_required_if_global_field</name>

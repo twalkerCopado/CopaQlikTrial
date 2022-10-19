@@ -116,6 +116,13 @@
         <label><!-- View Record Id --></label>
         <name>SBQQ__ViewRecordId__c</name>
     </fields>
+    <layouts>
+        <layout>Quote Document Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <webLinks>
         <label><!-- Email --></label>
         <name>SBQQ__Email</name>

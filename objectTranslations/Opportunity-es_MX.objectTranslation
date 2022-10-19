@@ -47,6 +47,21 @@
         <name>SBQQ__RenewedContract__c</name>
         <relationshipLabel><!-- Renewal Opportunities --></relationshipLabel>
     </fields>
+    <layouts>
+        <layout>CPQ Opportunity Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Recalculating --></label>
+            <section>Recalculating</section>
+        </sections>
+        <sections>
+            <label><!-- Salesforce CPQ Information --></label>
+            <section>Salesforce CPQ Information</section>
+        </sections>
+    </layouts>
     <webLinks>
         <label><!-- Amend_Assets --></label>
         <name>SBQQ__Amend_Assets</name>
